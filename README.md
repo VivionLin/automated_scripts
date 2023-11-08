@@ -3,9 +3,10 @@ A collection of scripts to automate some flows using AutoHotkey v2:
 
 | Script | Automate Flow |
 ---|---
-| launchVSCodeNpmProject | start VSCode -> open specific workspace -> start mock server -> open browser to project home page |
-| gitChangesCommitAndTag | pull remote changes to local -> commit local changes -> push commits to remote -> create tag -> push tag to remote |
-| extractWordsFromRosettaStoneForAnkiImport | learing English vocabularies in RosettaStone -> create note in Anki for each vocabulary |
+| launchVSCodeNpmProject.ahk | start VSCode -> open specific workspace -> start mock server -> open browser to project home page |
+| gitChangesCommitAndTag.bat | pull remote changes to local -> commit local changes -> push commits to remote -> create tag -> push tag to remote |
+| extractWordsFromRosettaStoneForAnkiImport.js | learing English vocabularies in RosettaStone -> create note in Anki for each vocabulary |
+| skipMicDetectionInRosettaStoneCourse.js | learing in RosettaStone -> close mic detection automatically |
 
 ---
 
@@ -20,5 +21,5 @@ A collection of scripts to automate some flows using AutoHotkey v2:
    * you can also use some tools like 'PowerToys Run' or 'Libraries' to quick location the script by keyword when you want to run it
 
 ### For .js script
-3. install Tampermonkey (https://www.tampermonkey.net/) to browser
+3. install Violentmonkey (https://violentmonkey.github.io/) to browser
 4. copy&paste the script to it
